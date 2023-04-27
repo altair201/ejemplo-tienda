@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body,html{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    place-items: center;
+    background-image: url(../img/Circuit\ Primary.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.container{
+    border: solid ;
+    height: 80%;
+    width: 60%;
+    display: grid;
+    place-items: center;
+    background-color: rgba(0, 0, 0, 0.767);
+}
+.container_card{
+    height: fit-content;
+    width: fit-content;
+}
+.container_title{
+    color: white;
+}
+.card{
+    border: solid 2px;
+    height: 60vh;
+    width: 50vw;
+    display: grid;
+    place-items: center;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: white;
+}
+.card_imagen{
+    border: solid 2px;
+    height: 30vh;
+    width: 17vw;
+    
+}
+.container_btn{
+    height: 50px;
+    width: 170px;
+    border-radius: 15px;
+    background-color: blue;
+    color: white;
+    font-weight: 700;
+    font-size: 1.1rem;
+}
